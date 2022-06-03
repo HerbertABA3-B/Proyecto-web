@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+    
+}
+
+/* ENCABEZADOOO */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: green;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+body {
+    text-align: center;
+  
+    right: 200px;
+    width: 1350px;
+    background-image: url(HOJA.jpg.crdownload);
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TITULOSS */
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* DESCRIPCIONES */
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid green;
+    color: #fff;
+    text-decoration: none;
+    background: green;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    right: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PRODUCTOOOSSS */
+.sau {
+    padding: 40px;
+    width: auto;
+    right: 800px;
+    margin: 0%;
+    background: #1f1d1def
+}
+
+.box-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+/* LOGITOSSS */
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #42b027;
+}
+
+/* QUIENES SOMOSSSS */
+.about {
+    background: #000000;
+}
+
+
+/* PRECIOSSSSS */
+.price {
+    background: url(ccf64839ec7367cbfb9ec497a1cd7d15-fondo-de-naturaleza-verde-fresca-con-floritura.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h2.precio
+{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #101010;
+}
+
+p.precio
+{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 0 100px;
+    
+}
+/* CONTACTOSSSSSSS */
+.contact {
+    padding-top: 20px;
+    background: #186605;
+    height: 80vh;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+}
